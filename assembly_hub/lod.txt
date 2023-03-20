@@ -1,0 +1,5 @@
+0 seq.hal
+44600 lod/seq_lod_500.hal
+111500 lod/seq_lod_1252.hal
+279196 lod/seq_lod_3130.hal
+697990 lod/seq_lod_7826.hal

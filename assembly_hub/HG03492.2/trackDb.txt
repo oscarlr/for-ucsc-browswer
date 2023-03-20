@@ -1,0 +1,1271 @@
+track hubCentral
+compositeTrack on
+shortLabel my hub
+longLabel my hub
+group comphub
+subGroup1 view Track_Type Snake=Alignments  
+subGroup2 orgs Organisms Anc0=Anc0 HG00438.1=HG00438.1 HG00438.2=HG00438.2 HG00621.1=HG00621.1 HG00621.2=HG00621.2 HG00673.1=HG00673.1 HG00673.2=HG00673.2 HG00735.1=HG00735.1 HG00735.2=HG00735.2 HG00741.1=HG00741.1 HG00741.2=HG00741.2 HG01071.1=HG01071.1 HG01071.2=HG01071.2 HG01106.1=HG01106.1 HG01106.2=HG01106.2 HG01123.1=HG01123.1 HG01123.2=HG01123.2 HG01175.1=HG01175.1 HG01175.2=HG01175.2 HG01258.1=HG01258.1 HG01258.2=HG01258.2 HG01358.1=HG01358.1 HG01358.2=HG01358.2 HG01361.1=HG01361.1 HG01361.2=HG01361.2 HG01891.1=HG01891.1 HG01891.2=HG01891.2 HG01928.1=HG01928.1 HG01928.2=HG01928.2 HG01952.1=HG01952.1 HG01952.2=HG01952.2 HG01978.1=HG01978.1 HG01978.2=HG01978.2 HG02148.1=HG02148.1 HG02148.2=HG02148.2 HG02257.1=HG02257.1 HG02257.2=HG02257.2 HG02486.1=HG02486.1 HG02486.2=HG02486.2 HG02559.1=HG02559.1 HG02559.2=HG02559.2 HG02572.1=HG02572.1 HG02572.2=HG02572.2 HG02622.1=HG02622.1 HG02622.2=HG02622.2 HG02630.1=HG02630.1 HG02630.2=HG02630.2 HG02717.1=HG02717.1 HG02717.2=HG02717.2 HG02886.1=HG02886.1 HG02886.2=HG02886.2 HG03453.1=HG03453.1 HG03453.2=HG03453.2 HG03516.1=HG03516.1 HG03516.2=HG03516.2 HG03540.1=HG03540.1 HG03540.2=HG03540.2 HG03579.1=HG03579.1 HG03579.2=HG03579.2 HG002.1=HG002.1 HG002.2=HG002.2 HG005.1=HG005.1 HG005.2=HG005.2 HG00733.1=HG00733.1 HG00733.2=HG00733.2 HG01109.1=HG01109.1 HG01109.2=HG01109.2 HG01243.1=HG01243.1 HG01243.2=HG01243.2 HG02055.1=HG02055.1 HG02055.2=HG02055.2 HG02080.1=HG02080.1 HG02080.2=HG02080.2 HG02109.1=HG02109.1 HG02109.2=HG02109.2 HG02145.1=HG02145.1 HG02145.2=HG02145.2 HG02723.1=HG02723.1 HG02723.2=HG02723.2 HG02818.1=HG02818.1 HG02818.2=HG02818.2 HG03098.1=HG03098.1 HG03098.2=HG03098.2 HG03486.1=HG03486.1 HG03486.2=HG03486.2 HG03492.1=HG03492.1 HG03492.2=HG03492.2 NA18906.1=NA18906.1 NA18906.2=NA18906.2 NA19240.1=NA19240.1 NA19240.2=NA19240.2 NA20129.1=NA20129.1 NA20129.2=NA20129.2 NA21309.1=NA21309.1 NA21309.2=NA21309.2 chr7_KI270803v1_alt=chr7_KI270803v1_alt _MINIGRAPH_=_MINIGRAPH_
+dragAndDrop subTracks
+#allButtonPair on
+dimensions dimensionX=view dimensionY=orgs
+noInherit on
+priority 0
+centerLabelsDense on
+visibility full
+html ../documentation/hubCentral
+type bigBed 3
+
+	track hubCentralAlignments
+	shortLabel Alignments
+	view Alignments
+	visibility full
+	subTrack hubCentral
+
+		track snakeAnc0
+		longLabel Anc0
+		shortLabel Anc0
+		otherSpecies Anc0
+		visibility full
+		parent hubCentralAlignments
+		showSnpWidth 44599
+		priority 2
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=Anc0
+
+		track snakeHG00438.1
+		longLabel HG00438.1
+		shortLabel HG00438.1
+		otherSpecies HG00438.1
+		visibility full
+		parent hubCentralAlignments
+		showSnpWidth 44599
+		priority 3
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00438.1
+
+		track snakeHG00438.2
+		longLabel HG00438.2
+		shortLabel HG00438.2
+		otherSpecies HG00438.2
+		visibility full
+		parent hubCentralAlignments
+		showSnpWidth 44599
+		priority 4
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00438.2
+
+		track snakeHG00621.1
+		longLabel HG00621.1
+		shortLabel HG00621.1
+		otherSpecies HG00621.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 5
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00621.1
+
+		track snakeHG00621.2
+		longLabel HG00621.2
+		shortLabel HG00621.2
+		otherSpecies HG00621.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 6
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00621.2
+
+		track snakeHG00673.1
+		longLabel HG00673.1
+		shortLabel HG00673.1
+		otherSpecies HG00673.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 7
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00673.1
+
+		track snakeHG00673.2
+		longLabel HG00673.2
+		shortLabel HG00673.2
+		otherSpecies HG00673.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 8
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00673.2
+
+		track snakeHG00735.1
+		longLabel HG00735.1
+		shortLabel HG00735.1
+		otherSpecies HG00735.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 9
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00735.1
+
+		track snakeHG00735.2
+		longLabel HG00735.2
+		shortLabel HG00735.2
+		otherSpecies HG00735.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 10
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00735.2
+
+		track snakeHG00741.1
+		longLabel HG00741.1
+		shortLabel HG00741.1
+		otherSpecies HG00741.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 11
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00741.1
+
+		track snakeHG00741.2
+		longLabel HG00741.2
+		shortLabel HG00741.2
+		otherSpecies HG00741.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 12
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00741.2
+
+		track snakeHG01071.1
+		longLabel HG01071.1
+		shortLabel HG01071.1
+		otherSpecies HG01071.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 13
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01071.1
+
+		track snakeHG01071.2
+		longLabel HG01071.2
+		shortLabel HG01071.2
+		otherSpecies HG01071.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 14
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01071.2
+
+		track snakeHG01106.1
+		longLabel HG01106.1
+		shortLabel HG01106.1
+		otherSpecies HG01106.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 15
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01106.1
+
+		track snakeHG01106.2
+		longLabel HG01106.2
+		shortLabel HG01106.2
+		otherSpecies HG01106.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 16
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01106.2
+
+		track snakeHG01123.1
+		longLabel HG01123.1
+		shortLabel HG01123.1
+		otherSpecies HG01123.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 17
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01123.1
+
+		track snakeHG01123.2
+		longLabel HG01123.2
+		shortLabel HG01123.2
+		otherSpecies HG01123.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 18
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01123.2
+
+		track snakeHG01175.1
+		longLabel HG01175.1
+		shortLabel HG01175.1
+		otherSpecies HG01175.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 19
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01175.1
+
+		track snakeHG01175.2
+		longLabel HG01175.2
+		shortLabel HG01175.2
+		otherSpecies HG01175.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 20
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01175.2
+
+		track snakeHG01258.1
+		longLabel HG01258.1
+		shortLabel HG01258.1
+		otherSpecies HG01258.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 21
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01258.1
+
+		track snakeHG01258.2
+		longLabel HG01258.2
+		shortLabel HG01258.2
+		otherSpecies HG01258.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 22
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01258.2
+
+		track snakeHG01358.1
+		longLabel HG01358.1
+		shortLabel HG01358.1
+		otherSpecies HG01358.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 23
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01358.1
+
+		track snakeHG01358.2
+		longLabel HG01358.2
+		shortLabel HG01358.2
+		otherSpecies HG01358.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 24
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01358.2
+
+		track snakeHG01361.1
+		longLabel HG01361.1
+		shortLabel HG01361.1
+		otherSpecies HG01361.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 25
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01361.1
+
+		track snakeHG01361.2
+		longLabel HG01361.2
+		shortLabel HG01361.2
+		otherSpecies HG01361.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 26
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01361.2
+
+		track snakeHG01891.1
+		longLabel HG01891.1
+		shortLabel HG01891.1
+		otherSpecies HG01891.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 27
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01891.1
+
+		track snakeHG01891.2
+		longLabel HG01891.2
+		shortLabel HG01891.2
+		otherSpecies HG01891.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 28
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01891.2
+
+		track snakeHG01928.1
+		longLabel HG01928.1
+		shortLabel HG01928.1
+		otherSpecies HG01928.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 29
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01928.1
+
+		track snakeHG01928.2
+		longLabel HG01928.2
+		shortLabel HG01928.2
+		otherSpecies HG01928.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 30
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01928.2
+
+		track snakeHG01952.1
+		longLabel HG01952.1
+		shortLabel HG01952.1
+		otherSpecies HG01952.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 31
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01952.1
+
+		track snakeHG01952.2
+		longLabel HG01952.2
+		shortLabel HG01952.2
+		otherSpecies HG01952.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 32
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01952.2
+
+		track snakeHG01978.1
+		longLabel HG01978.1
+		shortLabel HG01978.1
+		otherSpecies HG01978.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 33
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01978.1
+
+		track snakeHG01978.2
+		longLabel HG01978.2
+		shortLabel HG01978.2
+		otherSpecies HG01978.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 34
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01978.2
+
+		track snakeHG02148.1
+		longLabel HG02148.1
+		shortLabel HG02148.1
+		otherSpecies HG02148.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 35
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02148.1
+
+		track snakeHG02148.2
+		longLabel HG02148.2
+		shortLabel HG02148.2
+		otherSpecies HG02148.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 36
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02148.2
+
+		track snakeHG02257.1
+		longLabel HG02257.1
+		shortLabel HG02257.1
+		otherSpecies HG02257.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 37
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02257.1
+
+		track snakeHG02257.2
+		longLabel HG02257.2
+		shortLabel HG02257.2
+		otherSpecies HG02257.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 38
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02257.2
+
+		track snakeHG02486.1
+		longLabel HG02486.1
+		shortLabel HG02486.1
+		otherSpecies HG02486.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 39
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02486.1
+
+		track snakeHG02486.2
+		longLabel HG02486.2
+		shortLabel HG02486.2
+		otherSpecies HG02486.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 40
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02486.2
+
+		track snakeHG02559.1
+		longLabel HG02559.1
+		shortLabel HG02559.1
+		otherSpecies HG02559.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 41
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02559.1
+
+		track snakeHG02559.2
+		longLabel HG02559.2
+		shortLabel HG02559.2
+		otherSpecies HG02559.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 42
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02559.2
+
+		track snakeHG02572.1
+		longLabel HG02572.1
+		shortLabel HG02572.1
+		otherSpecies HG02572.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 43
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02572.1
+
+		track snakeHG02572.2
+		longLabel HG02572.2
+		shortLabel HG02572.2
+		otherSpecies HG02572.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 44
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02572.2
+
+		track snakeHG02622.1
+		longLabel HG02622.1
+		shortLabel HG02622.1
+		otherSpecies HG02622.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 45
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02622.1
+
+		track snakeHG02622.2
+		longLabel HG02622.2
+		shortLabel HG02622.2
+		otherSpecies HG02622.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 46
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02622.2
+
+		track snakeHG02630.1
+		longLabel HG02630.1
+		shortLabel HG02630.1
+		otherSpecies HG02630.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 47
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02630.1
+
+		track snakeHG02630.2
+		longLabel HG02630.2
+		shortLabel HG02630.2
+		otherSpecies HG02630.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 48
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02630.2
+
+		track snakeHG02717.1
+		longLabel HG02717.1
+		shortLabel HG02717.1
+		otherSpecies HG02717.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 49
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02717.1
+
+		track snakeHG02717.2
+		longLabel HG02717.2
+		shortLabel HG02717.2
+		otherSpecies HG02717.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 50
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02717.2
+
+		track snakeHG02886.1
+		longLabel HG02886.1
+		shortLabel HG02886.1
+		otherSpecies HG02886.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 51
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02886.1
+
+		track snakeHG02886.2
+		longLabel HG02886.2
+		shortLabel HG02886.2
+		otherSpecies HG02886.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 52
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02886.2
+
+		track snakeHG03453.1
+		longLabel HG03453.1
+		shortLabel HG03453.1
+		otherSpecies HG03453.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 53
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03453.1
+
+		track snakeHG03453.2
+		longLabel HG03453.2
+		shortLabel HG03453.2
+		otherSpecies HG03453.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 54
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03453.2
+
+		track snakeHG03516.1
+		longLabel HG03516.1
+		shortLabel HG03516.1
+		otherSpecies HG03516.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 55
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03516.1
+
+		track snakeHG03516.2
+		longLabel HG03516.2
+		shortLabel HG03516.2
+		otherSpecies HG03516.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 56
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03516.2
+
+		track snakeHG03540.1
+		longLabel HG03540.1
+		shortLabel HG03540.1
+		otherSpecies HG03540.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 57
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03540.1
+
+		track snakeHG03540.2
+		longLabel HG03540.2
+		shortLabel HG03540.2
+		otherSpecies HG03540.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 58
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03540.2
+
+		track snakeHG03579.1
+		longLabel HG03579.1
+		shortLabel HG03579.1
+		otherSpecies HG03579.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 59
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03579.1
+
+		track snakeHG03579.2
+		longLabel HG03579.2
+		shortLabel HG03579.2
+		otherSpecies HG03579.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 60
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03579.2
+
+		track snakeHG002.1
+		longLabel HG002.1
+		shortLabel HG002.1
+		otherSpecies HG002.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 61
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG002.1
+
+		track snakeHG002.2
+		longLabel HG002.2
+		shortLabel HG002.2
+		otherSpecies HG002.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 62
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG002.2
+
+		track snakeHG005.1
+		longLabel HG005.1
+		shortLabel HG005.1
+		otherSpecies HG005.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 63
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG005.1
+
+		track snakeHG005.2
+		longLabel HG005.2
+		shortLabel HG005.2
+		otherSpecies HG005.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 64
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG005.2
+
+		track snakeHG00733.1
+		longLabel HG00733.1
+		shortLabel HG00733.1
+		otherSpecies HG00733.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 65
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00733.1
+
+		track snakeHG00733.2
+		longLabel HG00733.2
+		shortLabel HG00733.2
+		otherSpecies HG00733.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 66
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG00733.2
+
+		track snakeHG01109.1
+		longLabel HG01109.1
+		shortLabel HG01109.1
+		otherSpecies HG01109.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 67
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01109.1
+
+		track snakeHG01109.2
+		longLabel HG01109.2
+		shortLabel HG01109.2
+		otherSpecies HG01109.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 68
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01109.2
+
+		track snakeHG01243.1
+		longLabel HG01243.1
+		shortLabel HG01243.1
+		otherSpecies HG01243.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 69
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01243.1
+
+		track snakeHG01243.2
+		longLabel HG01243.2
+		shortLabel HG01243.2
+		otherSpecies HG01243.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 70
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG01243.2
+
+		track snakeHG02055.1
+		longLabel HG02055.1
+		shortLabel HG02055.1
+		otherSpecies HG02055.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 71
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02055.1
+
+		track snakeHG02055.2
+		longLabel HG02055.2
+		shortLabel HG02055.2
+		otherSpecies HG02055.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 72
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02055.2
+
+		track snakeHG02080.1
+		longLabel HG02080.1
+		shortLabel HG02080.1
+		otherSpecies HG02080.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 73
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02080.1
+
+		track snakeHG02080.2
+		longLabel HG02080.2
+		shortLabel HG02080.2
+		otherSpecies HG02080.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 74
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02080.2
+
+		track snakeHG02109.1
+		longLabel HG02109.1
+		shortLabel HG02109.1
+		otherSpecies HG02109.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 75
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02109.1
+
+		track snakeHG02109.2
+		longLabel HG02109.2
+		shortLabel HG02109.2
+		otherSpecies HG02109.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 76
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02109.2
+
+		track snakeHG02145.1
+		longLabel HG02145.1
+		shortLabel HG02145.1
+		otherSpecies HG02145.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 77
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02145.1
+
+		track snakeHG02145.2
+		longLabel HG02145.2
+		shortLabel HG02145.2
+		otherSpecies HG02145.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 78
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02145.2
+
+		track snakeHG02723.1
+		longLabel HG02723.1
+		shortLabel HG02723.1
+		otherSpecies HG02723.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 79
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02723.1
+
+		track snakeHG02723.2
+		longLabel HG02723.2
+		shortLabel HG02723.2
+		otherSpecies HG02723.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 80
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02723.2
+
+		track snakeHG02818.1
+		longLabel HG02818.1
+		shortLabel HG02818.1
+		otherSpecies HG02818.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 81
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02818.1
+
+		track snakeHG02818.2
+		longLabel HG02818.2
+		shortLabel HG02818.2
+		otherSpecies HG02818.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 82
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG02818.2
+
+		track snakeHG03098.1
+		longLabel HG03098.1
+		shortLabel HG03098.1
+		otherSpecies HG03098.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 83
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03098.1
+
+		track snakeHG03098.2
+		longLabel HG03098.2
+		shortLabel HG03098.2
+		otherSpecies HG03098.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 84
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03098.2
+
+		track snakeHG03486.1
+		longLabel HG03486.1
+		shortLabel HG03486.1
+		otherSpecies HG03486.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 85
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03486.1
+
+		track snakeHG03486.2
+		longLabel HG03486.2
+		shortLabel HG03486.2
+		otherSpecies HG03486.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 86
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03486.2
+
+		track snakeHG03492.1
+		longLabel HG03492.1
+		shortLabel HG03492.1
+		otherSpecies HG03492.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 87
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=HG03492.1
+
+		track snakeNA18906.1
+		longLabel NA18906.1
+		shortLabel NA18906.1
+		otherSpecies NA18906.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 89
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA18906.1
+
+		track snakeNA18906.2
+		longLabel NA18906.2
+		shortLabel NA18906.2
+		otherSpecies NA18906.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 90
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA18906.2
+
+		track snakeNA19240.1
+		longLabel NA19240.1
+		shortLabel NA19240.1
+		otherSpecies NA19240.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 91
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA19240.1
+
+		track snakeNA19240.2
+		longLabel NA19240.2
+		shortLabel NA19240.2
+		otherSpecies NA19240.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 92
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA19240.2
+
+		track snakeNA20129.1
+		longLabel NA20129.1
+		shortLabel NA20129.1
+		otherSpecies NA20129.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 93
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA20129.1
+
+		track snakeNA20129.2
+		longLabel NA20129.2
+		shortLabel NA20129.2
+		otherSpecies NA20129.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 94
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA20129.2
+
+		track snakeNA21309.1
+		longLabel NA21309.1
+		shortLabel NA21309.1
+		otherSpecies NA21309.1
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 95
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA21309.1
+
+		track snakeNA21309.2
+		longLabel NA21309.2
+		shortLabel NA21309.2
+		otherSpecies NA21309.2
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 96
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=NA21309.2
+
+		track snakechr7_KI270803v1_alt
+		longLabel chr7_KI270803v1_alt
+		shortLabel chr7_KI270803v1_alt
+		otherSpecies chr7_KI270803v1_alt
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 97
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=chr7_KI270803v1_alt
+
+		track snake_MINIGRAPH_
+		longLabel _MINIGRAPH_
+		shortLabel _MINIGRAPH_
+		otherSpecies _MINIGRAPH_
+		visibility hide
+		parent hubCentralAlignments off
+		showSnpWidth 44599
+		priority 98
+		bigDataUrl ../lod.txt
+		type halSnake
+		group snake
+		subGroups view=Snake orgs=_MINIGRAPH_
+
